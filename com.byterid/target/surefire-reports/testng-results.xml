@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-06T19:02:41 IST" name="Suite" finished-at="2022-04-06T19:02:54 IST" duration-ms="12894">
+    <groups>
+    </groups>
+    <test started-at="2022-04-06T19:02:41 IST" name="Test" finished-at="2022-04-06T19:02:54 IST" duration-ms="12894">
+      <class name="com.byterid.TC_Login">
+        <test-method signature="login_Test()[pri:0, instance:com.byterid.TC_Login@15761df8]" started-at="2022-04-06T19:02:41 IST" name="login_Test" finished-at="2022-04-06T19:02:54 IST" duration-ms="12839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+      </class> <!-- com.byterid.TC_Login -->
+      <class name="com.byterid.AppTest">
+        <test-method signature="testlogin1()[pri:0, instance:com.byterid.AppTest@6ab7a896]" started-at="2022-04-06T19:02:54 IST" name="testlogin1" finished-at="2022-04-06T19:02:54 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin1 -->
+        <test-method signature="testlogin2()[pri:0, instance:com.byterid.AppTest@6ab7a896]" started-at="2022-04-06T19:02:54 IST" name="testlogin2" finished-at="2022-04-06T19:02:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin2 -->
+      </class> <!-- com.byterid.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-20T23:26:13Z" name="Default suite" finished-at="2022-04-20T23:26:26Z" duration-ms="12799">
+    <groups>
+    </groups>
+    <test started-at="2022-04-20T23:26:13Z" name="Default test" finished-at="2022-04-20T23:26:26Z" duration-ms="12799">
+      <class name="extendreportandheadless.SeleniumExtenrReportv4example">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:13Z" name="setExtent" finished-at="2022-04-20T23:26:13Z" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:13Z" name="setup" finished-at="2022-04-20T23:26:17Z" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noCommeceLoginTest()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:17Z" name="noCommeceLoginTest" finished-at="2022-04-20T23:26:17Z" duration-ms="27" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at extendreportandheadless.SeleniumExtenrReportv4example.noCommeceLoginTest(SeleniumExtenrReportv4example.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCommeceLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:17Z" name="tearDown" finished-at="2022-04-20T23:26:18Z" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noCommeceLoginTest status=FAILURE method=SeleniumExtenrReportv4example.noCommeceLoginTest()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:18Z" name="setup" finished-at="2022-04-20T23:26:21Z" duration-ms="3592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noCommecrceTitleTest()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:21Z" name="noCommecrceTitleTest" finished-at="2022-04-20T23:26:21Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCommecrceTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:21Z" name="tearDown" finished-at="2022-04-20T23:26:22Z" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noCommecrceTitleTest status=SUCCESS method=SeleniumExtenrReportv4example.noCommecrceTitleTest()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:22Z" name="setup" finished-at="2022-04-20T23:26:25Z" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noCommerceLogoTest()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:25Z" name="noCommerceLogoTest" finished-at="2022-04-20T23:26:25Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCommerceLogoTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:25Z" name="tearDown" finished-at="2022-04-20T23:26:25Z" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noCommerceLogoTest status=SUCCESS method=SeleniumExtenrReportv4example.noCommerceLogoTest()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:extendreportandheadless.SeleniumExtenrReportv4example@742ff096]" started-at="2022-04-20T23:26:25Z" name="endReport" finished-at="2022-04-20T23:26:26Z" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- extendreportandheadless.SeleniumExtenrReportv4example -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

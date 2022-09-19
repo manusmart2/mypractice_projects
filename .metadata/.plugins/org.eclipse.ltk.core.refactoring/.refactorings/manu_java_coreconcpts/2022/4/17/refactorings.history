@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;manu_java_coreconcpts&apos;&#x0D;&#x0A;- Original project: &apos;manu_java_coreconcpts&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     manu_java_coreconcpts/src/com.msn.collections&#x0D;&#x0A;     manu_java_coreconcpts/src/com.msn.manuproject_test&#x0D;&#x0A;     manu_java_coreconcpts/src/com.msn.stringspkg&#x0D;&#x0A;     manu_java_coreconcpts/src/com.msn.tet_example.dumm" description="Delete elements" element1="/src&lt;com.msn.tet_example.dumm" element2="/src&lt;com.msn.tet_example" element3="/src&lt;com.msn" element4="/src&lt;com" element5="/src&lt;com.msn.stringspkg" element6="/src&lt;com.msn.manuproject_test" element7="/src&lt;com.msn.collections" elements="7" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1650500120461" subPackages="false" version="1.0"/>
+</session>
